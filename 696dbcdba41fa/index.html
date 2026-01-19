@@ -1,0 +1,1823 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><head>
+    <meta charset="utf-8">
+    <title>Luxe vow - Discover high-quality products</title>
+    <meta name="keywords" content="skin fabric">
+    <meta name="description" content="">
+    <meta name="author" content="Luxe vow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="canonical" href="https://luxevow.tweaki.store">
+
+    <!-- SEO Meta Tags for High Visibility -->
+    <meta name="robots" content="index, follow">
+    <meta name="title" content="Luxe vow">
+    <meta name="description" content="Discover high-quality products from Luxe vow. Shop now for the best deals and exclusive offers.">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Luxe vow">
+    <meta property="og:description" content="Explore our range of premium products at Luxe vow. Shop now for exclusive deals.">
+    <meta property="og:image" content="images/6966bf5e5e3b6.jpeg">
+    <meta property="og:url" content="https://luxevow.tweaki.store">
+    <meta property="og:site_name" content="Luxe vow">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Luxe vow">
+    <meta name="twitter:description" content="Shop premium products at Luxe vow. Discover deals today!">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/tweaki-india/medias/main/6966bf5e5e3b6.jpeg">
+
+    <!-- font -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="css/font-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <link rel="shortcut icon" href="images/6966bf5e5e3b6.jpeg">
+    <link rel="apple-touch-icon-precomposed" href="images/6966bf5e5e3b6.jpeg">
+    
+    <script src="js/lottie-player.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script defer="" src="js/cdn.min.js"></script>
+    <style>[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+
+            <style>
+            .info-btn {
+                position: absolute;
+                bottom: 7px;
+                right: 12px;
+                z-index: 4;
+                padding: 6px 14px;
+                font-size: 13px;
+                font-weight: 600;
+                border-radius: 999px;
+                border: none;
+                cursor: pointer;
+                background: rgba(255, 255, 255, 0.92);
+                color: #000;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+                transition: all 0.25s ease;
+            }
+
+            .info-btn:hover {
+                background: #000;
+                color: #fff;
+                transform: translateY(-2px);
+            }
+
+
+            .video-modal {
+                position: fixed;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.9);
+                display: none;
+                align-items: center;
+                justify-content: center;
+                z-index: 9999;
+            }
+
+            .video-modal video {
+                width: 90%;
+                max-width: 420px;
+                max-height: 90vh;
+                border-radius: 12px;
+            }
+
+
+            .media-card::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.25);
+                /* subtle black shade */
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                z-index: 1;
+            }
+
+
+            .media-card:hover::before {
+                opacity: 1;
+            }
+
+            .media-card::after {
+                position: absolute;
+                inset: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 48px;
+                color: #fff;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                z-index: 2;
+            }
+
+            .media-card:hover::after {
+                opacity: 1;
+            }
+
+
+            .media-card {
+                position: relative;
+                width: 100%;
+                aspect-ratio: 9 / 16;
+                border-radius: 16px;
+                overflow: hidden;
+                cursor: pointer;
+            }
+
+            .media-card {
+                position: relative;
+            }
+
+
+            .media-overlay {
+                position: absolute;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.08);
+                z-index: 2;
+                pointer-events: none;
+            }
+
+
+            /* heading text */
+            .media-card .heading {
+                position: absolute;
+                bottom: 12px;
+                left: 12px;
+                right: 12px;
+
+                z-index: 3;
+                /* 👈 ABOVE overlay */
+                color: #fff;
+                font-size: 14px;
+                font-weight: 600;
+
+                text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+                pointer-events: none;
+            }
+
+
+            /* ALWAYS visible subtle shade */
+            .media-overlay {
+                position: absolute;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.08);
+                /* 👈 VERY LOW */
+                z-index: 2;
+                pointer-events: none;
+                opacity: 1;
+                /* 👈 IMPORTANT */
+            }
+
+            /* Optional: slightly darker on hover */
+            .media-card:hover .media-overlay {
+                background: rgba(0, 0, 0, 0.14);
+            }
+
+            /* media */
+            .media-video,
+            .media-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: relative;
+                z-index: 1;
+            }
+
+
+            .media-video,
+            .media-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: relative;
+                z-index: 0;
+            }
+
+            /* Optional play icon */
+            .media-card::after {
+                position: absolute;
+                inset: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 48px;
+                color: rgba(255, 255, 255, 0.8);
+                pointer-events: none;
+            }
+
+
+            .product-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                /* Desktop: 4 */
+                gap: 30px;
+            }
+
+            /* Tablet & Mobile */
+            @media (max-width: 991px) {
+                .product-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                    /* 2 items */
+                    gap: 15px;
+                }
+            }
+
+            .wrap-slider-new {
+                position: relative;
+                width: 100%;
+                 overflow: hidden;
+            }
+
+            .wrap-slider-new img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                /* key */
+                display: block;
+            }
+
+            /* Content overlay */
+            .wrap-slider-new .box-content {
+                position: absolute;
+                inset: 0;
+                display: flex;
+                align-items: center;
+                /* vertical center */
+                justify-content: flex-start;
+                /* LEFT on web */
+                padding-left: 80px;
+                /* desktop left spacing */
+                padding-right: 20px;
+
+                background: linear-gradient(90deg,
+                        rgba(0, 0, 0, 0.55) 0%,
+                        rgba(0, 0, 0, 0.35) 45%,
+                        rgba(0, 0, 0, 0.1) 70%,
+                        rgba(0, 0, 0, 0) 100%);
+            }
+
+            /* IMPORTANT: override bootstrap container center */
+            .wrap-slider-new .box-content .container {
+                margin-left: 0 !important;
+                /* force left */
+                margin-right: auto;
+                padding-left: 0;
+                max-width: 620px;
+                color: #fff;
+                text-align: left;
+            }
+
+            .fade-item fade-item-2 {
+                margin-bottom: 10px !important;
+            }
+
+            /* ----------- Tablet ----------- */
+            @media (max-width: 991px) {
+                .wrap-slider-new {
+                    
+                }
+
+                .wrap-slider-new h1 {
+                    font-size: 26px;
+                }
+
+                .wrap-slider-new p {
+                    font-size: 15px;
+                }
+
+                .wrap-slider-new .box-content {
+                    padding-left: 40px;
+                }
+            }
+
+            /* ----------- Mobile ----------- */
+            @media (max-width: 576px) {
+                .wrap-slider-new .box-content {
+                    align-items: flex-end;
+                    /* bottom */
+                    padding-left: 20px;
+                    padding-bottom: 20px;
+                }
+
+                /* Mobile can stay centered or left — your choice */
+                .wrap-slider-new .box-content .container {
+                    margin: 0;
+                }
+            }
+
+
+            .tf-slideshow,
+            .swiper,
+            .swiper-wrapper,
+            .swiper-slide {
+                height: 100%;
+            }
+
+            .box-content h1,
+            .box-content p,
+            .box-content a {
+                text-transform: uppercase;
+                color: white;
+                font-weight: bold;
+            }
+
+            .product-card {
+                background: #fff;
+                border: 1px solid #eee;
+                border-radius: 14px;
+                padding: 5px;
+                transition: all 0.3s ease;
+            }
+
+            .product-card:hover {
+                border-color: #e53935;
+                /* brand color */
+                box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+                transform: translateY(-4px);
+            }
+        </style>
+    
+    
+    <style>
+        
+    </style>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Luxe vow",
+        "url": "https://luxevow.tweaki.store",
+        "description": "Welcome to Luxe vow, your destination for premium products."
+    }
+    </script>
+
+    <script>
+        (function() {
+            function getAnonId() {
+                let id = localStorage.getItem('tweaki_anon_id');
+                if (!id) {
+                    id = crypto.randomUUID?.() || 'anon-' + Date.now() + Math.random().toString(36).slice(2);
+                    localStorage.setItem('tweaki_anon_id', id);
+                }
+                return id;
+            }
+
+            function fireMetaFromAnalytics(event) {
+                if (!window.fbq) return;
+
+                const {
+                    event_name,
+                    properties
+                } = event;
+
+                switch (event_name) {
+
+                    case 'Page Viewed':
+                        fbq('track', 'PageView');
+                        break;
+
+                    case 'Product Viewed':
+                        fbq('track', 'ViewContent', {
+                            content_ids: [String(properties.product_id)],
+                            content_type: 'product',
+                            value: Number(properties.price),
+                            currency: 'INR'
+                        });
+                        break;
+
+                    case 'Add To Cart':
+                        fbq('track', 'AddToCart', {
+                            content_ids: [String(properties.product_id)],
+                            content_type: 'product',
+                            value: Number(properties.price),
+                            currency: 'INR',
+                            quantity: properties.quantity
+                        });
+                        break;
+
+                    case 'Checkout Started':
+                        fbq('track', 'InitiateCheckout', {
+                            currency: 'INR'
+                        });
+                        break;
+
+                    case 'Customer Identified':
+                        // ❌ Do NOT send raw PII
+                        // Optional: custom event without PII
+                        fbq('trackCustom', 'CustomerIdentified');
+                        break;
+
+                    case 'Order Attempted':
+                        fbq('track', 'AddPaymentInfo', {
+                            value: Number(properties.total),
+                            currency: 'INR'
+                        });
+                        break;
+
+                    default:
+                        fbq('trackCustom', event_name, properties);
+                }
+            }
+
+            async function sendEvent(name, properties = {}) {
+                const payload = {
+                    event_name: name,
+                    properties,
+                    anonymous_id: getAnonId(),
+                    occurred_at: new Date().toISOString(),
+                    source: 'browser'
+                };
+
+                fireMetaFromAnalytics(payload);
+
+                // Best-effort: send beacon or fetch
+                if (navigator.sendBeacon) {
+                    const blob = new Blob([JSON.stringify(payload)], {
+                        type: 'application/json'
+                    });
+                    navigator.sendBeacon('/analytics/events', blob);
+                    return;
+                }
+
+                try {
+                    await fetch('/analytics/events', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(payload),
+                        credentials: 'include'
+                    });
+                } catch (e) {
+                    console.warn('Analytics send failed', e);
+                }
+            }
+
+            window.TweakiAnalytics = {
+                sendEvent,
+                getAnonId
+            };
+        })();
+    </script>
+
+
+</head>
+
+<body class="preload-wrapper">
+    <!-- RTL -->
+    <!-- <a href="javascript:void(0);" id="toggle-rtl" class="tf-btn animate-hover-btn btn-fill">RTL</a> -->
+    <!-- /RTL  -->
+    <!-- preload -->
+    <div class="preload preload-container">
+        <div class="preload-logo">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <!-- /preload -->
+    <div id="wrapper">
+        <!-- announcement-bar -->
+                <!-- /announcement-bar -->
+
+        <!-- header -->
+        <div wire:id="XEEDNowCsnsOqJFR2bxz" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;XEEDNowCsnsOqJFR2bxz&quot;,&quot;name&quot;:&quot;home.layout.header&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[&quot;cartRefresh&quot;]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;572f0a3e&quot;,&quot;data&quot;:{&quot;search&quot;:null,&quot;name&quot;:null,&quot;email&quot;:null,&quot;phone&quot;:null,&quot;message&quot;:null},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;23917116e80575ecf3e5480ef57335e4f2b4cecab761de3a1ac8d5f7add01ec7&quot;}}" x-data="{ isOpen: false }">
+
+            <header id="header" class="header-default header-style-2">
+            <div class="main-header line">
+                <div class="container-full px_15 lg-px_40">
+                    <div class="row wrapper-header align-items-center">
+                        <div class="col-xl-5 tf-md-hidden">
+                            <ul class="header-list-categories">
+                                                                    <li class="categories-item active">
+                                        <a href="https://Luxe vow.tweaki.site." class="text-uppercase">
+                                            Luxe vow
+                                        </a>
+                                    </li>
+                                                                <li class="categories-item"><a href="#ask_question" data-bs-toggle="modal" class="text-uppercase">
+                                        Enquiry
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-3 tf-lg-hidden">
+                            <a href="#mobileMenu" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16" fill="none">
+                                    <path d="M2.00056 2.28571H16.8577C17.1608 2.28571 17.4515 2.16531 17.6658 1.95098C17.8802 1.73665 18.0006 1.44596 18.0006 1.14286C18.0006 0.839753 17.8802 0.549063 17.6658 0.334735C17.4515 0.120408 17.1608 0 16.8577 0H2.00056C1.69745 0 1.40676 0.120408 1.19244 0.334735C0.978109 0.549063 0.857702 0.839753 0.857702 1.14286C0.857702 1.44596 0.978109 1.73665 1.19244 1.95098C1.40676 2.16531 1.69745 2.28571 2.00056 2.28571ZM0.857702 8C0.857702 7.6969 0.978109 7.40621 1.19244 7.19188C1.40676 6.97755 1.69745 6.85714 2.00056 6.85714H22.572C22.8751 6.85714 23.1658 6.97755 23.3801 7.19188C23.5944 7.40621 23.7148 7.6969 23.7148 8C23.7148 8.30311 23.5944 8.59379 23.3801 8.80812C23.1658 9.02245 22.8751 9.14286 22.572 9.14286H2.00056C1.69745 9.14286 1.40676 9.02245 1.19244 8.80812C0.978109 8.59379 0.857702 8.30311 0.857702 8ZM0.857702 14.8571C0.857702 14.554 0.978109 14.2633 1.19244 14.049C1.40676 13.8347 1.69745 13.7143 2.00056 13.7143H12.2863C12.5894 13.7143 12.8801 13.8347 13.0944 14.049C13.3087 14.2633 13.4291 14.554 13.4291 14.8571C13.4291 15.1602 13.3087 15.4509 13.0944 15.6653C12.8801 15.8796 12.5894 16 12.2863 16H2.00056C1.69745 16 1.40676 15.8796 1.19244 15.6653C0.978109 15.4509 0.857702 15.1602 0.857702 14.8571Z" fill="currentColor"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="text-center col-xl-2 col-md-4 col-6">
+                            <a href="https://luxevow.tweaki.store" class="logo-header">
+                                <img src="images/695edba97869e.png" alt="logo" class="logo">
+                            </a>
+                        </div>
+
+                        <div class="col-xl-5 col-md-4 col-3">
+                            <ul class="gap-20 nav-icon d-flex justify-content-end align-items-center">
+                                <li class="nav-search"><a href="#canvasSearch" data-bs-toggle="offcanvas" @click="isOpen = true" aria-controls="offcanvasLeft" class="nav-icon-item"><i class="icon icon-search"></i></a></li>
+                                <li class="nav-account"><a href="#login" data-bs-toggle="modal" class="nav-icon-item"><i class="icon icon-account"></i></a></li>
+                                <li class="nav-wishlist"><a href="#login" data-bs-toggle="modal" class="nav-icon-item"><i class="icon icon-heart"></i><span class="count-box">
+                                            0
+                                        </span></a></li>
+                                <li class="nav-cart"><a href="#shoppingCart" wire:click="updateCart" data-bs-toggle="modal" class="nav-icon-item"><i class="icon icon-bag"></i><span class="count-box">
+                                            0
+                                        </span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom line">
+                <div class="container-full px_15 lg-px_40">
+                    <div class="wrapper-header d-flex justify-content-center align-items-center">
+                        <nav class="text-center box-navigation">
+                            <ul class="box-nav-ul d-flex align-items-center justify-content-center gap-30">
+
+                                                                    <li class="menu-item position-relative">
+                                        <a href="https://luxevow.tweaki.store/shop/category/skin-and-fabric-T5KMa" class="item-link">
+                                            skin and fabric
+                                                                                            <i class="icon icon-arrow-down"></i>
+                                                                                    </a>
+
+                                        <div class="sub-menu submenu-default">
+                                            <ul class="menu-list">
+                                                                                                    <li><a href="https://luxevow.tweaki.store/shop/subcategory/frxx-fJqYd" class="menu-link-text link text_black-2">
+                                                            Skin
+                                                        </a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                                                <li class="menu-item"><a href="https://luxevow.tweaki.store/shop/products" class="item-link">All</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="header-list-categories tf-lg-hidden">
+                                                            <li class="categories-item active"><a href="https://Luxe vow.tweaki.site." class="text-uppercase">
+                                        Luxe vow
+                                    </a></li>
+                            
+                            <li class="categories-item"><a href="#ask_question" data-bs-toggle="modal" class="text-uppercase">
+                                    Enquiry
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- mobile menu -->
+        <div class="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
+            <span class="icon-close icon-close-popup" data-bs-dismiss="offcanvas" aria-label="Close"></span>
+            <div class="mb-canvas-content">
+                <div class="mb-body">
+                    <ul class="nav-ul-mb" id="wrapper-menu-navigation">
+                                                    <li class="nav-mb-item">
+                                <a href="#dropdown-menu-1" class="collapsed mb-menu-link current" data-bs-toggle="collapse" aria-expanded="true" aria-controls="dropdown-menu-one">
+                                    <span>
+                                        skin and fabric
+                                    </span>
+                                                                            <span class="btn-open-sub"></span>
+                                                                    </a>
+                                                                    <div id="dropdown-menu-1" class="collapse">
+                                        <ul class="sub-nav-menu">
+                                                                                            <li><a href="https://luxevow.tweaki.store/shop/subcategory/frxx-fJqYd" class="sub-nav-link">
+                                                        Skin
+                                                    </a></li>
+                                                                                    </ul>
+                                    </div>
+                                
+                            </li>
+                        
+
+                    </ul>
+                    <div class="mb-other-content">
+                        <div class="d-flex group-icon">
+                            <a href="https://luxevow.tweaki.store/wishlist" class="site-nav-icon"><i class="icon icon-heart"></i>Wishlist</a>
+                        </div>
+                        <div class="mb-notice">
+                            <a href="https://api.whatsapp.com/send/?phone=7356242670&amp;text=Hi%2C+I+have+been+on+your+website+and+have+a+query.&amp;type=phone_number&amp;app_absent=0" class="text-need">Need help ?</a>
+                        </div>
+                        <ul class="mb-info">
+                            <li>Address: </li>
+                            <li>Email: <b></b></li>
+                            <li>Phone: <b>7356242670</b></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mb-bottom">
+                    <a hhref="#login" data-bs-toggle="modal" class="site-nav-icon"><i class="icon icon-account"></i>Login</a>
+                </div>
+            </div>
+        </div>
+        <!-- /mobile menu -->
+
+
+        <div class="tf-toolbar-bottom type-1150">
+            <div class="toolbar-item">
+                                    <a href="#toolbarShopmb" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft">
+                        <div class="toolbar-icon">
+                            <i class="icon-shop"></i>
+                        </div>
+                        <div class="toolbar-label">Shop</div>
+                    </a>
+                
+            </div>
+
+            <div class="toolbar-item">
+                <a @click="isOpen = true" href="#canvasSearch" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft">
+                    <div class="toolbar-icon">
+                        <i class="icon-search"></i>
+                    </div>
+                    <div class="toolbar-label">Search</div>
+                </a>
+            </div>
+            <div class="toolbar-item">
+                <a href="#login" data-bs-toggle="modal">
+                    <div class="toolbar-icon">
+                        <i class="icon-account"></i>
+                    </div>
+                    <div class="toolbar-label">Account</div>
+                </a>
+            </div>
+            <div class="toolbar-item">
+                <a href="#login" data-bs-toggle="modal">
+                    <div class="toolbar-icon">
+                        <i class="icon icon-list"></i>
+                        <div class="toolbar-count">
+                            0
+                        </div>
+                    </div>
+                    <div class="toolbar-label">Orders</div>
+                </a>
+            </div>
+            <div class="toolbar-item">
+                <a href="#shoppingCart" data-bs-toggle="modal">
+                    <div class="toolbar-icon">
+                        <i class="icon-bag"></i>
+                        <div class="toolbar-count">
+                            0
+                        </div>
+                    </div>
+                    <div class="toolbar-label">Cart</div>
+                </a>
+            </div>
+        </div>
+
+    
+
+    <div class="offcanvas offcanvas-end canvas-search" id="canvasSearch" wire:ignore.self="" data-bs-backdrop="false">
+     <div class="canvas-wrapper">
+
+         <header class="tf-search-head">
+             <div class="title fw-5">
+                 Search our site
+                 <div class="close">
+                     <span @click="isOpen = false" id="closeCanvasSearch" class="icon-close icon-close-popup" data-bs-dismiss="offcanvas" aria-label="Close"></span>
+                 </div>
+             </div>
+             <div class="tf-search-sticky">
+                 <form class="tf-mini-search-frm">
+                     <fieldset class="text">
+                         <input wire:model.debounce.500ms="search" id="searchByName" type="text" placeholder="Search" class="" name="searchByName" tabindex="0" value="" aria-required="true" required="">
+                     </fieldset>
+                     <button class="" type="submit"><i class="icon-search"></i></button>
+                 </form>
+             </div>
+         </header>
+         <div class="canvas-body p-0">
+             <div class="tf-search-content">
+                 <div class="tf-cart-hide-has-results">
+
+                     <div class="tf-col-content">
+                         <div class="tf-search-content-title fw-5">Need some inspiration?</div>
+                         <div class="tf-search-hidden-inner">
+                                                              <div class="tf-loop-item">
+                                     <div class="image">
+                                         <a href="https://luxevow.tweaki.store/shop/product/elliston-all-in-one-serum-for-skin-beard-health-multi-functional-face-beard-30-ml-7W3Be">
+                                             <img src="images/6964bb0e08dd8.jpg" alt="ELLISTON All-in-One Serum for Skin &amp; Beard Health Multi-Functional Face &amp; Beard   (30 ml)">
+                                         </a>
+                                     </div>
+                                     <div class="content">
+                                         <a href="https://luxevow.tweaki.store/shop/product/elliston-all-in-one-serum-for-skin-beard-health-multi-functional-face-beard-30-ml-7W3Be">
+                                             ELLISTON All-in-One Serum for Skin &amp; Beard Health...
+                                         </a>
+                                         <div class="tf-product-info-price">
+                                                                                              <div class="compare-at-price">
+                                                     ₹ 549
+                                                 </div>
+                                                 <div class="price-on-sale fw-6"> ₹ 439.2
+                                                 </div>
+                                                                                      </div>
+                                     </div>
+                                 </div>
+                                                              <div class="tf-loop-item">
+                                     <div class="image">
+                                         <a href="https://luxevow.tweaki.store/shop/product/regineld-men-sunscreen-spf-50-pa-moisturising-sunscreen-spf-50-pa-with-11-actives-combo-100-g-WBiYn">
+                                             <img src="images/6964c30049359.jpg" alt="Regineld Men Sunscreen - SPF 50 PA++++ Moisturising Sunscreen SPF 50+ PA++++ with 11 Actives Combo&nbsp;&nbsp;(100 g)">
+                                         </a>
+                                     </div>
+                                     <div class="content">
+                                         <a href="https://luxevow.tweaki.store/shop/product/regineld-men-sunscreen-spf-50-pa-moisturising-sunscreen-spf-50-pa-with-11-actives-combo-100-g-WBiYn">
+                                             Regineld Men Sunscreen - SPF 50 PA++++ Moisturisin...
+                                         </a>
+                                         <div class="tf-product-info-price">
+                                                                                              <div class="compare-at-price">
+                                                     ₹ 399
+                                                 </div>
+                                                 <div class="price-on-sale fw-6"> ₹ 379.05
+                                                 </div>
+                                                                                      </div>
+                                     </div>
+                                 </div>
+                             
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+
+ <div class="offcanvas-backdrop fade show" x-show="isOpen" @click="()=> { isOpen = false,  document.getElementById('closeCanvasSearch').click() }"></div>
+    <!-- modal ask_question -->
+<div class="modal modalCentered fade modalDemo tf-product-modal modal-part-content" id="ask_question" wire:ignore.self="">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="header">
+                <div class="demo-title">Ask a question</div>
+                <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
+            </div>
+            <div class="overflow-y-auto">
+                <form class="" wire:submit.prevent="submitEnquiry">
+                    <fieldset class="">
+                        <label for="">Name *</label>
+                        <input type="text" wire:model.defer="name" placeholder="" class="" name="text" tabindex="2" value="" aria-required="true">
+                                            </fieldset>
+                    <fieldset class="">
+                        <label for="">Email *</label>
+                        <input type="email" placeholder="" class="" name="text" tabindex="2" value="" aria-required="true" wire:model.defer="email">
+                                            </fieldset>
+                    <fieldset class="">
+                        <label for="">Phone number</label>
+                        <input type="number" placeholder="" class="" name="text" tabindex="2" value="" aria-required="true" wire:model.defer="phone">
+                                                </fieldset>
+                    <fieldset class="">
+                        <label for="">Message</label>
+                        <textarea name="message" rows="4" placeholder="" class="" tabindex="2" aria-required="true" wire:model.defer="message"></textarea>
+                                                </fieldset>
+                    <button type="submit" class="tf-btn w-100 btn-fill justify-content-center fw-6 fs-16 flex-grow-1 animate-hover-btn">
+                        <i wire:loading="" wire:target="submitEnquiry" class="fa fa-spinner fa-spin" style="font-size:20px"></i>
+                        &nbsp;
+                        <span>Send</span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /modal ask_question -->
+
+<!-- modal delivery_return -->
+<div class="modal modalCentered fade modalDemo tf-product-modal modal-part-content" id="delivery_return">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="header">
+                <div class="demo-title">Shipping &amp; Delivery</div>
+                <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
+            </div>
+            <div class="overflow-y-auto">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /modal delivery_return -->
+
+</div>
+
+<!-- Livewire Component wire-end:XEEDNowCsnsOqJFR2bxz -->        <!-- /header -->
+
+        <section class="flat-spacing-20">
+        <div class="container">
+            <div class="tf-categories-wrap">
+                <div class="tf-categories-container">
+                                                                        <div class="collection-item-circle hover-img">
+                                <div class="has-saleoff-wrap position-relative">
+                                    <a href="https://luxevow.tweaki.store/shop/subcategory/frxx-fJqYd" class="collection-image img-style">
+                                        <img class="lazyload" data-src="https://raw.githubusercontent.com/tweaki-india/medias/main/695f6a04b192e.jpeg" src="images/695f6a04b192e.jpeg" alt="collection-img">
+                                    </a>
+                                                                            <div class="sale-off fw-5">
+                                           NEW
+                                        </div>         </div>
+        <div class="collection-content text-center">
+            <a href="https://luxevow.tweaki.store/shop/subcategory/frxx-fJqYd" class="link title fw-6">
+                Skin
+            </a>
+        </div>
+        </div>
+                        </div>
+        <div class="tf-shopall-wrap">
+            <div class="collection-item-circle tf-shopall">
+                <a href="https://luxevow.tweaki.store/shop/products" class="collection-image img-style tf-shopall-icon">
+                    <i class="icon icon-arrow1-top-left"></i>
+                </a>
+                <div class="collection-content text-center">
+                    <a href="https://luxevow.tweaki.store/shop/products" class="link title fw-6">Shop all</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- slider -->
+    <div class="tf-slideshow slider-women slider-effect-fade position-relative pb_2">
+        <div dir="ltr" class="swiper tf-sw-slideshow" data-preview="1" data-tablet="1" data-mobile="1" data-centered="false" data-space="0" data-loop="true" data-auto-play="false" data-delay="2000" data-speed="1000">
+            <div class="swiper-wrapper">
+                                    <div class="swiper-slide" lazy="true">
+                        <div class="wrap-slider-new">
+                            <img class="lazyload" data-src="https://raw.githubusercontent.com/tweaki-india/medias/main/695ede6f91890.png" src="images/695ede6f91890.png" width="100%" alt="Luxe">
+                            <div class="box-content">
+                                <div class="container">
+                                    <h1 class="fade-item fade-item-1">
+                                        Luxe
+                                    </h1>
+                                    <p class="fade-item fade-item-2">
+                                        
+                                    </p>
+                                    <a href="" class="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"><span>Shop
+                                            collection</span><i class="icon icon-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+        <div class="wrap-pagination">
+            <div class="container">
+                <div class="sw-dots sw-pagination-slider justify-content-center"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="tf-slideshow slider-women slider-effect-fade position-relative pb_2">-->
+    <!--    <div dir="ltr" class="swiper tf-sw-slideshow" data-preview="1" data-tablet="1" data-mobile="1"-->
+    <!--        data-centered="false" data-space="0" data-loop="true" data-auto-play="false" data-delay="2000"-->
+    <!--        data-speed="1000">-->
+    <!--        <div class="swiper-wrapper">-->
+    <!--            -->
+    <!--                <div class="swiper-slide" lazy="true">-->
+    <!--                    <div class="wrap-slider">-->
+    <!--                        <img class="lazyload" data-src="https://raw.githubusercontent.com/tweaki-india/medias/main/695ede6f91890.png" src="https://raw.githubusercontent.com/tweaki-india/medias/main/695ede6f91890.png"-->
+    <!--                            alt="Luxe">-->
+    <!--                        <div class="box-content">-->
+    <!--                            <div class="container">-->
+    <!--                                <h1 class="fade-item fade-item-1">-->
+    <!--                                    Luxe-->
+    <!--                                </h1>-->
+    <!--                                <p class="fade-item fade-item-2">-->
+    <!--                                    -->
+    <!--                                </p>-->
+    <!--                                <a href=""-->
+    <!--                                    class="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"><span>Shop-->
+    <!--                                        collection</span><i class="icon icon-arrow-right"></i></a>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            -->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--    <div class="wrap-pagination">-->
+    <!--        <div class="container">-->
+    <!--            <div class="sw-dots sw-pagination-slider justify-content-center"></div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    <!-- /slider -->
+
+
+            <section class="flat-spacing-15 pb_2" data-product-carousel="" data-item-to-show="4" data-item-dots="false" data-item-arrows="true" data-item-dots-mb="true" data-item-arrows-mb="false">
+            <div class="container">
+
+
+                <div class="flat-title wow fadeInUp" data-wow-delay="0s">
+                    <span class="title"> Top Selling Products</span>
+                    <p class="sub-title">
+                        This week we have a special offer for you.
+                    </p>
+                </div>
+
+                <div class="product-grid">
+                                            <div class="product-card">
+                            <div wire:id="M9Hlm2omXHsI69vbcE9T" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;M9Hlm2omXHsI69vbcE9T&quot;,&quot;name&quot;:&quot;home.components.product&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;8b952353&quot;,&quot;data&quot;:{&quot;product&quot;:[],&quot;slug&quot;:&quot;elliston-all-in-one-serum-for-skin-beard-health-multi-functional-face-beard-30-ml-7W3Be&quot;,&quot;is_wishlist_page&quot;:false},&quot;dataMeta&quot;:{&quot;models&quot;:{&quot;product&quot;:{&quot;class&quot;:&quot;App\\Models\\Product&quot;,&quot;id&quot;:4,&quot;relations&quot;:[&quot;colorsRelation&quot;],&quot;connection&quot;:&quot;sqlite&quot;,&quot;collectionClass&quot;:null}}},&quot;checksum&quot;:&quot;457ec5a6f2f7f1f6dd897c35261c365c01ef84fc0b1c8a4fcbaa0ddf5915c7e7&quot;}}">
+
+        <div class="card-product">
+        <div class="card-product-wrapper">
+            <a href="https://luxevow.tweaki.store/shop/product/elliston-all-in-one-serum-for-skin-beard-health-multi-functional-face-beard-30-ml-7W3Be" class="product-img">
+                <img class="lazyload img-product" data-src="https://raw.githubusercontent.com/tweaki-india/medias/main/6964bb0e08dd8.jpg" src="images/6964bb0e08dd8.jpg" alt="image-product">
+                <img class="lazyload img-hover" data-src="https://raw.githubusercontent.com/tweaki-india/medias/main/6964bb0f85d4f.jpg" src="images/6964bb0f85d4f.jpg" alt="image-product">
+            </a>
+
+            
+            <div class="list-product-btn">
+                <a href="https://luxevow.tweaki.store/shop/product/elliston-all-in-one-serum-for-skin-beard-health-multi-functional-face-beard-30-ml-7W3Be" class="box-icon bg_white quick-add tf-btn-loading">
+                    <span class="icon icon-bag"></span>
+                    <span class="tooltip">Quick Add</span>
+                </a>
+                <a wire:click.prevent="addToWishlist" href="javascript:void(0);" class="box-icon bg_white wishlist btn-icon-action">
+
+                                            <span class="icon icon-heart"></span>
+                                        <span class="tooltip">Add to Wishlist</span>
+                </a>
+
+            </div>
+            <div class="size-list">
+                <span>10 stocks available</span>
+            </div>
+
+                            <div class="on-sale-wrap">
+                    <div class="on-sale-item">-20%</div>
+                </div>
+            
+            
+        </div>
+        <div class="card-product-info">
+            <a href="https://luxevow.tweaki.store/shop/product/elliston-all-in-one-serum-for-skin-beard-health-multi-functional-face-beard-30-ml-7W3Be" class="title link">
+                ELLISTON All-in-One Serum for Skin &amp; Beard Health Multi-Functional Face &amp; Beard   (30 ml)
+            </a>
+            <span class="price">
+
+                                    <div class="tf-product-info-price">
+                        <div class="compare-at-price" style="font-size: 13px;">
+                            ₹ 549
+                        </div>
+                        <div class="price-on-sale" style="font-size: 15px;">
+                            ₹ 439.2
+                        </div>
+                    </div>
+                            </span>
+            <ul class="list-color-product" wire:ignore="">
+                            </ul>
+        </div>
+    </div>
+    
+</div>
+
+<!-- Livewire Component wire-end:M9Hlm2omXHsI69vbcE9T -->                        </div>
+                                            <div class="product-card">
+                            <div wire:id="T8op37j36AigCxWv9OHs" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;T8op37j36AigCxWv9OHs&quot;,&quot;name&quot;:&quot;home.components.product&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;03120486&quot;,&quot;data&quot;:{&quot;product&quot;:[],&quot;slug&quot;:&quot;regineld-men-sunscreen-spf-50-pa-moisturising-sunscreen-spf-50-pa-with-11-actives-combo-100-g-WBiYn&quot;,&quot;is_wishlist_page&quot;:false},&quot;dataMeta&quot;:{&quot;models&quot;:{&quot;product&quot;:{&quot;class&quot;:&quot;App\\Models\\Product&quot;,&quot;id&quot;:5,&quot;relations&quot;:[&quot;colorsRelation&quot;],&quot;connection&quot;:&quot;sqlite&quot;,&quot;collectionClass&quot;:null}}},&quot;checksum&quot;:&quot;79b9f19c1b4c7327074a7dc947a51c9faaddf7d7ea6f1e29fa0f4868b9c0ed53&quot;}}">
+
+        <div class="card-product">
+        <div class="card-product-wrapper">
+            <a href="https://luxevow.tweaki.store/shop/product/regineld-men-sunscreen-spf-50-pa-moisturising-sunscreen-spf-50-pa-with-11-actives-combo-100-g-WBiYn" class="product-img">
+                <img class="lazyload img-product" data-src="https://raw.githubusercontent.com/tweaki-india/medias/main/6964c30049359.jpg" src="images/6964c30049359.jpg" alt="image-product">
+                <img class="lazyload img-hover" data-src="https://raw.githubusercontent.com/tweaki-india/medias/main/6964c3019bba0.jpg" src="images/6964c3019bba0.jpg" alt="image-product">
+            </a>
+
+            
+            <div class="list-product-btn">
+                <a href="https://luxevow.tweaki.store/shop/product/regineld-men-sunscreen-spf-50-pa-moisturising-sunscreen-spf-50-pa-with-11-actives-combo-100-g-WBiYn" class="box-icon bg_white quick-add tf-btn-loading">
+                    <span class="icon icon-bag"></span>
+                    <span class="tooltip">Quick Add</span>
+                </a>
+                <a wire:click.prevent="addToWishlist" href="javascript:void(0);" class="box-icon bg_white wishlist btn-icon-action">
+
+                                            <span class="icon icon-heart"></span>
+                                        <span class="tooltip">Add to Wishlist</span>
+                </a>
+
+            </div>
+            <div class="size-list">
+                <span>10 stocks available</span>
+            </div>
+
+                            <div class="on-sale-wrap">
+                    <div class="on-sale-item">-5%</div>
+                </div>
+            
+            
+        </div>
+        <div class="card-product-info">
+            <a href="https://luxevow.tweaki.store/shop/product/regineld-men-sunscreen-spf-50-pa-moisturising-sunscreen-spf-50-pa-with-11-actives-combo-100-g-WBiYn" class="title link">
+                Regineld Men Sunscreen - SPF 50 PA++++ Moisturising Sunscreen SPF 50+ PA++++ with 11 Actives Combo&nbsp;&nbsp;(100 g)
+            </a>
+            <span class="price">
+
+                                    <div class="tf-product-info-price">
+                        <div class="compare-at-price" style="font-size: 13px;">
+                            ₹ 399
+                        </div>
+                        <div class="price-on-sale" style="font-size: 15px;">
+                            ₹ 379.05
+                        </div>
+                    </div>
+                            </span>
+            <ul class="list-color-product" wire:ignore="">
+                            </ul>
+        </div>
+    </div>
+    
+</div>
+
+<!-- Livewire Component wire-end:T8op37j36AigCxWv9OHs -->                        </div>
+                                    </div>
+
+                
+            </div>
+        </section><!-- END: Block Products -->
+    
+
+        <!-- END: Block Products -->
+
+
+    
+
+    
+    
+
+
+
+
+    
+
+    <section class="flat-spacing-7 flat-iconbox wow fadeInUp" data-wow-delay="0s">
+
+    <div id="videoModal" class="video-modal" onclick="closeVideoModal()">
+        <video id="modalVideo" controls=""></video>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.media-video').forEach(video => {
+                video.play().catch(() => {});
+            });
+        });
+    </script>
+
+
+    <script>
+        function openVideoModal(src) {
+            const modal = document.getElementById('videoModal');
+            const video = document.getElementById('modalVideo');
+
+            video.src = src;
+            video.muted = false;
+            video.currentTime = 0;
+            video.play();
+
+            modal.style.display = 'flex';
+        }
+
+        function closeVideoModal() {
+            const modal = document.getElementById('videoModal');
+            const video = document.getElementById('modalVideo');
+
+            video.pause();
+            video.src = '';
+            modal.style.display = 'none';
+        }
+    </script>
+
+
+    <script>
+        TweakiAnalytics.sendEvent('Page Viewed', {
+            path: window.location.pathname,
+            title: document.title
+        });
+    </script>
+
+        <!-- footer -->
+        <footer id="footer" class="footer background-gray md-pb-70">
+    <div class="footer-wrap">
+        <div class="footer-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-12">
+                        <div class="footer-infor">
+                            <div class="footer-logo">
+                                <a href="https://luxevow.tweaki.store">
+                                    <img src="images/695edba97869e.png" alt="">
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <p>Address: </p>
+                                </li>
+                                <li>
+                                    <p>Email: <a href="/cdn-cgi/l/email-protection#d2"></a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Phone: <a href="https://api.whatsapp.com/send/?phone=7356242670&amp;text=Hi%2C+I+have+been+on+your+website+and+have+a+query.&amp;type=phone_number&amp;app_absent=0">7356242670</a>
+                                    </p>
+                                </li>
+                            </ul>
+                            <a href="https://api.whatsapp.com/send/?phone=7356242670&amp;text=Hi%2C+I+have+been+on+your+website+and+have+a+query.&amp;type=phone_number&amp;app_absent=0" class="tf-btn btn-line">Chat with us<i class="icon icon-arrow1-top-left"></i></a>
+                            <ul class="tf-social-icon d-flex gap-10">
+                                                                    <li><a href="https://www.facebook.com/share/184WrP91MJ/?mibextid=wwXIfr" class="box-icon w_34 round social-facebook social-line"><i class="icon fs-14 icon-fb"></i></a></li>
+                                                                                                                                    <li><a href="I'm on Instagram as @_luxevow_. Install the app to follow my photos and videos. https://www.instagram.com/_luxevow_?igsh=ZWIxNHA1cGoyZWM5&amp;utm_source=ig_contact_invite" class="box-icon w_34 round social-instagram social-line"><i class="icon fs-14 icon-instagram"></i></a></li>
+                                                                
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-12 footer-col-block">
+                        <div class="footer-heading footer-heading-desktop">
+                            <h6>Help</h6>
+                        </div>
+                        <div class="footer-heading footer-heading-moblie">
+                            <h6>Help</h6>
+                        </div>
+                        <ul class="footer-menu-list tf-collapse-content">
+                                                        <li>
+                                <a href="https://luxevow.tweaki.store/wishlist" class="footer-menu_item wishlist-footer">My Wishlist</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-12 footer-col-block">
+                        <div class="footer-heading footer-heading-desktop">
+                            <h6>Shop</h6>
+                        </div>
+                        <div class="footer-heading footer-heading-moblie">
+                            <h6>Shop</h6>
+                        </div>
+                        <ul class="footer-menu-list tf-collapse-content">
+                                                            <li>
+                                    <a href="https://luxevow.tweaki.store/shop/subcategory/frxx-fJqYd" class="footer-menu_item">
+                                        Skin
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-12">
+                        <div class="footer-newsletter footer-col-block">
+                            <div class="footer-heading footer-heading-desktop">
+                                <h6>Sign Up for Email</h6>
+                            </div>
+                            <div class="footer-heading footer-heading-moblie">
+                                <h6>Sign Up for Email</h6>
+                            </div>
+                            <div class="tf-collapse-content">
+                                <div class="footer-menu_item">Sign up to get first dibs on new arrivals, sales,
+                                    exclusive content, events and more!</div>
+                                <div wire:id="3T9ESDVwH8TNX15Ighz5" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;3T9ESDVwH8TNX15Ighz5&quot;,&quot;name&quot;:&quot;home.subscribe&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;e012d649&quot;,&quot;data&quot;:{&quot;email&quot;:null},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;e0e8a06cc9c4be8d6a69911aef7127a6d295a56c87c28c25f7955cdbfabcf4ce&quot;}}">
+    <form class="form-newsletter" wire:submit.prevent="subscribe" accept-charset="utf-8">
+        <div id="subscribe-content">
+            <fieldset class="email">
+                <input type="email" wire:model.defer="email" name="email-form" id="subscribe-email" placeholder="Enter your email...." tabindex="0" aria-required="true">
+            </fieldset>
+            <div class="button-submit">
+                <button class="tf-btn btn-sm radius-3 btn-fill btn-icon animate-hover-btn" type="submit">Subscribe<i class="icon icon-arrow1-top-left"></i></button>
+            </div>
+        </div>
+                <div id="subscribe-msg"></div>
+    </form>
+</div>
+
+<!-- Livewire Component wire-end:3T9ESDVwH8TNX15Ighz5 -->                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-bottom-wrap d-flex gap-20 flex-wrap justify-content-between align-items-center">
+                            <div class="footer-menu_item"> © 2026 Luxe vow. All Rights
+                                Reserved.</div>
+                            <div class="tf-payment">
+                                <img src="images/visa.png" alt="">
+                                <img src="images/img-1.png" alt="">
+                                <img src="images/img-2.png" alt="">
+                                <img src="images/img-3.png" alt="">
+                                <img src="images/img-4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+        <!-- /footer -->
+
+    </section></div>
+
+    <!-- gotop -->
+    <button id="goTop">
+        <span class="border-progress"></span>
+        <span class="icon icon-arrow-up"></span>
+    </button>
+    <!-- /gotop -->
+
+    <!-- canvasSearch -->
+
+    <!-- /canvasSearch -->
+
+    <!-- toolbarShopmb -->
+    <div class="offcanvas offcanvas-start canvas-mb toolbar-shop-mobile" id="toolbarShopmb">
+        <span class="icon-close icon-close-popup" data-bs-dismiss="offcanvas" aria-label="Close"></span>
+        <div class="mb-canvas-content">
+            <div class="mb-body">
+                <ul class="nav-ul-mb" id="wrapper-menu-navigation">
+                                                              <li class="nav-mb-item">
+                        <a href="https://luxevow.tweaki.store/shop/subcategory/frxx-fJqYd" class="tf-category-link mb-menu-link">
+                            <div class="image">
+                                <img src="images/695f6a04b192e.jpeg" alt="">
+                            </div>
+                            <span>
+                                Skin
+                            </span>
+                        </a>
+                    </li>
+                                                        </ul>
+            </div>
+            <div class="mb-bottom">
+                <a href="https://luxevow.tweaki.store/shop/products" class="tf-btn fw-5 btn-line">View all collection<i class="icon icon-arrow1-top-left"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- /toolbarShopmb -->
+
+    <!-- modal login -->
+
+    <div wire:id="vk1FUzUHuKQ5lXaAKmHO" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;vk1FUzUHuKQ5lXaAKmHO&quot;,&quot;name&quot;:&quot;home.auth&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;83f42a82&quot;,&quot;data&quot;:{&quot;phone&quot;:null,&quot;otp&quot;:null,&quot;name&quot;:null,&quot;email&quot;:null,&quot;password&quot;:null,&quot;show_additional_fields&quot;:false,&quot;msg_status&quot;:&quot;&quot;},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;e33f137fa7ef9d9af25ba4c2ff0eb14f32e4498414ccb06eef85ad1c22b66b48&quot;}}">
+
+    <style>
+        /* Default (Desktop) – keep centered */
+        .modal.modalCentered .modal-dialog {
+            display: flex;
+            align-items: center;
+            min-height: calc(100% - 1rem);
+        }
+
+        /* Mobile only – move modal to bottom */
+        @media (max-width: 767px) {
+            .modal.modalCentered .modal-dialog {
+                align-items: flex-end !important;
+                min-height: 100%;
+                margin: 0;
+            }
+
+            .modal.modalCentered .modal-content {
+                border-radius: 16px 16px 0 0;
+                animation: slideUp 0.3s ease;
+            }
+        }
+
+        /* Smooth bottom-slide animation */
+        @keyframes slideUp {
+            from {
+                transform: translateY(100%);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+
+
+        .google-login-wrapper {
+            margin-bottom: 16px;
+        }
+
+        .google-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: 6px;
+            background: #ffffff;
+            border: 1px solid #ddd;
+            color: #333;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.25s ease;
+        }
+
+        .google-btn:hover {
+            background: #f8f8f8;
+            border-color: #cfcfcf;
+        }
+
+        .google-icon {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+
+    <div class="modal modalCentered fade form-sign-in modal-part-content" id="login" wire:ignore.self="" x-data="{ showMode: true }">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="header">
+                    <div class="demo-title">Log in</div>
+                    <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
+                </div>
+                <div class="tf-login-form">
+
+                    <div class="bottom" x-show="showMode">
+
+                        <!-- GUEST -->
+                        <div class="w-100 mb-2">
+                            <a href="https://luxevow.tweaki.store/client-guest-login" type="button" class="tf-btn btn-outline radius-3 w-100 justify-content-center">
+                                Continue as Guest
+                            </a>
+                        </div>
+
+                        <!-- LOGIN -->
+                        <div class="w-100">
+                            <button type="button" class="tf-btn btn-fill radius-3 w-100 justify-content-center" @click="showMode = false">
+                                Login / Register
+                            </button>
+                        </div>
+
+                    </div>
+
+                    
+                    <form class="" wire:submit.prevent="registerOrLogin" accept-charset="utf-8" x-show="!showMode">
+                        <div class="tf-field style-1">
+                            <input class="tf-field-input tf-input" placeholder=" " type="email" name="" wire:model.defer="email">
+                            <label class="tf-field-label" for="">Email *</label>
+                        </div>
+                        
+                        <div class="tf-field style-1">
+                            <input class="tf-field-input tf-input" placeholder=" " type="password" name="" wire:model.defer="password">
+                            <label class="tf-field-label" for="">Password *</label>
+                        </div>
+                        
+                        <div>
+                            <a href="#forgotPassword" data-bs-toggle="modal" class="btn-link link">Forgot your
+                                password?</a>
+                        </div>
+                        <div class="bottom">
+                            <div class="w-100">
+                                <button type="submit" class="tf-btn btn-fill animate-hover-btn radius-3 w-100 justify-content-center">
+                                    <i wire:loading="" wire:target="registerOrLogin" class="fa fa-spinner fa-spin" style="font-size:20px"></i> &nbsp; &nbsp; <span>Log
+                                        in</span></button>
+                            </div>
+                            <div class="w-100">
+                                <a href="#register" data-bs-toggle="modal" class="btn-link fw-6 w-100 link" wire:click="$set('show_additional_fields', true)">
+                                    New customer? Create your account
+                                    <i class="icon icon-arrow1-top-left"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal modalCentered fade form-sign-in modal-part-content" id="register" wire:ignore.self="">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="header">
+                    <div class="demo-title">Register</div>
+                    <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
+                </div>
+                <div class="tf-login-form">
+                                        <form class="" wire:submit.prevent="registerOrLogin" accept-charset="utf-8">
+                        <div class="tf-field style-1">
+                            <input class="tf-field-input tf-input" placeholder=" " type="text" name="" wire:model.defer="name">
+                            <label class="tf-field-label" for="">Full name</label>
+                        </div>
+                        
+
+                        <div class="tf-field style-1">
+                            <input class="tf-field-input tf-input" placeholder=" " type="number" name="" wire:model.defer="phone">
+                            <label class="tf-field-label" for="">Phone *</label>
+                        </div>
+                        
+                        <div class="tf-field style-1">
+                            <input class="tf-field-input tf-input" placeholder=" " type="email" name="" wire:model.defer="email">
+                            <label class="tf-field-label" for="">Email *</label>
+                        </div>
+                        
+                        <div class="tf-field style-1">
+                            <input class="tf-field-input tf-input" placeholder=" " type="password" name="" wire:model.defer="password">
+                            <label class="tf-field-label" for="">Password *</label>
+                        </div>
+                        
+
+                        <div class="bottom">
+                            <div class="w-100">
+                                <button type="submit" href="register.html" class="tf-btn btn-fill animate-hover-btn radius-3 w-100 justify-content-center">
+                                    <i wire:loading="" wire:target="registerOrLogin" class="fa fa-spinner fa-spin" style="font-size:20px"></i> &nbsp; &nbsp;
+                                    <span>Register</span></button>
+                            </div>
+                            <div class="w-100">
+                                <a href="#login" wire:click="$set('show_additional_fields', false)" data-bs-toggle="modal" class="btn-link fw-6 w-100 link">
+                                    Already have an account? Log in here
+                                    <i class="icon icon-arrow1-top-left"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal modalCentered fade form-sign-in modal-part-content" id="forgotPassword" wire:ignore.self="">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="header">
+                    <div class="demo-title">Reset your password</div>
+                    <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
+                </div>
+                <div class="tf-login-form">
+                    <form class="" wire:submit.prevent="forgotPassword" accept-charset="utf-8">
+                        <div>
+                            <p>Sign up for early Sale access plus tailored new arrivals, trends and promotions. To opt
+                                out, click unsubscribe in our emails</p>
+                        </div>
+                        <div class="tf-field style-1">
+                            <input class="tf-field-input tf-input" placeholder=" " type="email" name="" wire:model.defer="email">
+                            <label class="tf-field-label" for="">Email *</label>
+                        </div>
+                                                <div>
+                            <a href="#login" data-bs-toggle="modal" class="btn-link link">Cancel</a>
+                        </div>
+                        <div class="bottom">
+                            <div class="w-100">
+                                <button type="submit" class="tf-btn btn-fill animate-hover-btn radius-3 w-100 justify-content-center">
+
+                                    <i wire:loading="" wire:target="forgotPassword" class="fa fa-spinner fa-spin" style="font-size:20px"></i> &nbsp;
+                                    <span>Reset
+                                        password</span></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script data-cfasync="false" src="js/email-decode.min.js"></script><script>
+        document.addEventListener('livewire:load', function() {
+            Livewire.on('close-modal', function() {
+                $('#login').modal('hide');
+                $('#register').modal('hide');
+                $('#forgotPassword').modal('hide');
+            });
+        });
+    </script>
+
+</div>
+
+<!-- Livewire Component wire-end:vk1FUzUHuKQ5lXaAKmHO -->    <!-- /modal login -->
+
+    <!-- shoppingCart -->
+    <div wire:id="YfQwEgvBThOpoRTCEKAD" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;YfQwEgvBThOpoRTCEKAD&quot;,&quot;name&quot;:&quot;home.carts&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[&quot;cartRefresh&quot;]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;d5e0d27f&quot;,&quot;data&quot;:{&quot;agree_checkbox&quot;:true},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;169c5978ffd392d653c4c51b4ac709c153a36c7341248229258be8ca4b0a85d5&quot;}}">
+
+
+    <div class="modal fullRight fade modal-shopping-cart" id="shoppingCart" wire:ignore.self="">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="header">
+                    <div class="title fw-5">Shopping cart</div>
+                    <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
+                </div>
+                <div class="wrap">
+                                        <div class="tf-mini-cart-wrap">
+                        <div class="tf-mini-cart-main">
+                            <div class="tf-mini-cart-sroll">
+                                <div class="tf-mini-cart-items">
+                                                                    </div>
+
+                            </div>
+                        </div>
+                        <div class="tf-mini-cart-bottom">
+
+                            <div class="tf-mini-cart-bottom-wrap">
+                                <div class="tf-cart-totals-discounts">
+                                    <div class="tf-cart-total">Subtotal</div>
+                                    <div class="tf-totals-total-value fw-6">₹ 0</div>
+                                </div>
+                                <div class="tf-cart-tax">Taxes and <a href="#">shipping</a> calculated at checkout
+                                </div>
+                                <div class="tf-mini-cart-line"></div>
+                                <div class="tf-cart-checkbox">
+                                    <div class="tf-checkbox-wrapp">
+                                        <input class="" type="checkbox" id="CartDrawer-Form_agree" value="1" disabled="" wire:model.defer="agree_checkbox" name="agree_checkbox">
+                                        <div>
+                                            <i class="icon-check"></i>
+                                        </div>
+                                    </div>
+                                    <label for="CartDrawer-Form_agree">
+                                        I agree with the
+                                        <a href="" title="Terms of Service">terms and conditions</a>
+                                    </label>
+                                </div>
+                                <div class="tf-mini-cart-view-checkout">
+                                    <a href="https://luxevow.tweaki.store/carts" class="tf-btn btn-outline radius-3 link w-100 justify-content-center">View
+                                        cart</a>
+                                    <a href="https://luxevow.tweaki.store/checkout" class="tf-btn btn-fill animate-hover-btn radius-3 w-100 justify-content-center"><span>Check
+                                            out</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Livewire Component wire-end:YfQwEgvBThOpoRTCEKAD -->    <!-- /shoppingCart -->
+
+    
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+<div class="toast-container"></div>
+<style>
+
+
+    @keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(calc(100% + 30px)) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+  }
+}
+
+@keyframes fadeSlideOut {
+  0% {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(calc(100% + 30px)) scale(0.95);
+  }
+}
+
+  .toast-container {
+  position: fixed;
+  top: 25px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.toast {
+  position: relative;
+  width: 320px;
+  border-radius: 12px;
+  background: #fff;
+  padding: 13px;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+  display: flex;
+  overflow-x: hidden;
+  align-items: center;
+  transform: translateX(calc(100% + 30px));
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.35);
+}
+
+.toast.active {
+  animation: fadeSlideIn 0.5s ease forwards;
+  transform: translateX(0%);
+  display: inherit;
+}
+
+.toast.removing {
+  animation: fadeSlideOut 0.4s ease forwards;
+}
+
+.toast .toast-content {
+  display: flex;
+  align-items: start;
+}
+
+.toast-content .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  min-width: 35px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.toast-content .message {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.message .text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.message .text.text-1 {
+  font-weight: 600;
+  color: #333;
+}
+
+.toast .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.toast .close:hover {
+  opacity: 1;
+}
+
+.toast .progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+}
+
+.toast .progress:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070f4;
+}
+
+.progress.active:before {
+  animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+  100% {
+    right: 100%;
+  }
+}
+
+/* Toast Type Colors */
+.toast.success .icon { color: rgb(25 135 84); }
+.toast.error .icon { color: rgb(220 53 69); }
+.toast.warning .icon { color: rgb(255 193 7); }
+.toast.info .icon { color: rgb(13 202 240); }
+
+.toast.success .progress:before { background: rgb(25 135 84); }
+.toast.error .progress:before { background: rgb(220 53 69); }
+.toast.warning .progress:before { background: rgb(255 193 7); }
+.toast.info .progress:before { background: rgb(13 202 240); }
+
+
+</style>
+
+<script>
+
+    function showToast(message, type = "success") {
+        const toastContainer = document.querySelector(".toast-container");
+
+        const toast = document.createElement("div");
+        toast.classList.add("toast", type);
+        toast.classList.add("asset-toast")
+
+        toast.innerHTML = `
+          <div class="toast-content">
+            <i class="bi icon bi-${getIcon(type)}"></i>
+            <div class="message">
+              <span class="text text-1">${capitalize(type)}</span>
+              <span class="text text-2">${message}</span>
+            </div>
+          </div>
+          <i class="bi bi-x-lg close"></i>
+          <div class="progress active"></div>
+        `;
+
+        toastContainer.appendChild(toast);
+        let showToast = setTimeout(() => {
+          void toast.offsetHeight;
+          toast.classList.add("active");
+        }, 1);
+
+        const progress = toast.querySelector(".progress");
+        const closeIcon = toast.querySelector(".close");
+
+        // Auto-remove toast after 5s
+        const timer1 = setTimeout(() => {
+          toast.classList.remove("removing");
+          toast.classList.remove("active");
+        }, 5000);
+
+        const timer2 = setTimeout(() => {
+          toast.classList.remove("removing");
+          progress.classList.remove("active");
+          setTimeout(() => toast.remove(), 400);
+        }, 5300);
+
+        // Manual close
+        closeIcon.addEventListener("click", () => {
+          toast.classList.remove("active");
+          clearTimeout(timer1);
+          clearTimeout(timer2);
+          clearTimeout(showToast);
+          setTimeout(() => toast.remove(), 400);
+        });
+      }
+
+      function getIcon(type) {
+        switch (type) {
+          case "success": return "check-circle-fill";
+          case "error": return "x-circle-fill";
+          case "warning": return "exclamation-triangle-fill";
+          case "info": return "info-circle-fill";
+          default: return "check-circle-fill";
+        }
+      }
+
+      function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+      }
+
+
+
+
+      // Example Usage:
+      
+
+</script>
+
+    <script>
+        if (!localStorage.getItem('guest_init')) {
+            fetch('/auto-guest-login', {
+                method: 'POST',
+                headers: {
+                    'X-CSRF-TOKEN': 'pBWEtTVVRfpqOprBEzZqTku9WPGup5lptrzhZTe6'
+                }
+            }).then(() => {
+                localStorage.setItem('guest_init', '1');
+            });
+        }
+    </script>
+
+    <script>
+        window.addEventListener('toast', e => {
+            showToast(e.detail.message, e.detail.type);
+        });
+
+        window.addEventListener('tweaki-events', e => {
+            var title = e.detail.title;
+            var properties = e.detail.properties;
+            TweakiAnalytics.sendEvent(title, properties);
+        });
+
+    </script>
+
+    <script>
+        document.querySelectorAll('[data-bs-bg]').forEach(function(el) {
+            const bg = el.getAttribute('data-bs-bg');
+            el.style.backgroundImage = `url('${bg}')`;
+            el.style.backgroundRepeat = 'no-repeat';
+            el.style.backgroundSize = 'cover'; // Or 'contain' based on your needs
+            el.style.backgroundPosition = 'center';
+        });
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min_1.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/lazysize.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/count-down.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/multiple-modal.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/livewire.js" data-turbo-eval="false" data-turbolinks-eval="false"></script><script data-turbo-eval="false" data-turbolinks-eval="false">window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'pBWEtTVVRfpqOprBEzZqTku9WPGup5lptrzhZTe6';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+
+
+<script defer="" src="js/vcd15cbe7772f49c399c6a5babf22c1241717689176015.js" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;8eeab27d680648b9b327ae2887f07c29&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+
+
+</body></html>
